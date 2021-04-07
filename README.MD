@@ -3,7 +3,6 @@
 Travis CI Badge : [![Build Status](https://travis-ci.com/wmedali/newman-ci.svg?branch=master)](https://travis-ci.com/wmedali/newman-ci)  
 Circle CI Badge : [![<CircleCI>](https://circleci.com/gh/wmedali/newman-ci.svg?style=shield)](<LINK>)
 
-Click on the badgeds to visit the project page.  
 Some helpful links to setup :  
 - [Newman documentation ](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
 - [Newman Integratio nwith Travis CI](https://learning.postman.com/docs/running-collections/using-newman-cli/integration-with-travis/)

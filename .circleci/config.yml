@@ -2,10 +2,21 @@ version: 2.1
 orbs:
   newman: postman/newman@0.0.2
 jobs:
-  newman-collection-run:
+  newman-test-run:
+    description: Run API Tests Using Newman
     executor: newman/postman-newman-docker
     steps:
       - checkout
       - newman/newman-run:
           collection: tests/Postman_Echo.postman_collection.json
           folder: Utilities
+          additional-options: -r cli,junit --reporter-junit-export test-reports/jUnitReport.xml
+      - store_artifacts:
+          path: test-reports
+      - store_test_results:
+          path: test-reports
+workflows:
+  version: 2
+  workflow:
+    jobs:
+    - newman-test-run

@@ -1,0 +1,15 @@
+language: node_js
+
+node_js: 
+  - "10.15.3"
+
+install: 
+  - npm install newman
+
+before_script: 
+  - node --version
+  - npm --version
+  - node_modules/.bin/newman --version
+
+script:
+  - node_modules/.bin/newman run tests/Postman_Echo.postman_collection.json

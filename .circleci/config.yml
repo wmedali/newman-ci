@@ -11,8 +11,6 @@ jobs:
           collection: tests/Postman_Echo.postman_collection.json
           folder: Utilities
           additional-options: -r cli,junit --reporter-junit-export test-report
-      - store_test_results:
-        path: test-report
 workflows:
   version: 2
   workflow:

@@ -3,7 +3,7 @@ orbs:
   newman: postman/newman@0.0.2
 jobs:
   newman-test-run:
-    name: Run API Tests Using Newman
+    description: Run API Tests Using Newman
     executor: newman/postman-newman-docker
     steps:
       - checkout

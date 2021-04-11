@@ -1,7 +1,7 @@
 ## Run Newman tests in Continious Integration
 
 Travis CI Badge : [![Build Status](https://travis-ci.com/wmedali/newman-ci.svg?branch=master)](https://travis-ci.com/wmedali/newman-ci)  
-Circle CI Badge : [![<CircleCI>](https://circleci.com/gh/wmedali/newman-ci.svg?style=shield)](<LINK>)
+Circle CI Badge : [![<CircleCI>](https://circleci.com/gh/wmedali/newman-ci.svg?style=shield)](<https://app.circleci.com/pipelines/github/wmedali/newman-ci>)
 
 Some helpful links to setup :  
 - [Newman documentation ](https://learning.postman.com/docs/running-collections/using-newman-cli/command-line-integration-with-newman/)
